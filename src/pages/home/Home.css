@@ -1,0 +1,79 @@
+.home_nav_left > img {
+  width: 140px;
+}
+
+.home_body {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home_hero > h1 {
+  font-size: 80px;
+  font-weight: 700;
+  color: linear-gradient(
+    90deg,
+    #01efdf 0%,
+    #5d98ec 31.56%,
+    #9d5af9 66.46%,
+    #da21ff 100%
+  );
+  text-align: center;
+  animation: float 6s ease-in-out infinite;
+}
+
+.home_hero > p {
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+}
+
+.home_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+}
+
+button {
+  border: none;
+  padding: 1em;
+  border-radius: 16px;
+}
+
+#get_started,
+#join_discord {
+  margin: 0.5em;
+}
+
+#get_started {
+  background-color: rgb(157, 90, 249);
+}
+
+#join_discord {
+  background-color: rgb(218, 33, 255);
+}
+
+Link,
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+Link:hover,
+a:hover {
+  color: white;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
