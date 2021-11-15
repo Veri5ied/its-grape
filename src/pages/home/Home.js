@@ -35,7 +35,13 @@ function Home() {
                 <Link to="">GET STARTED</Link>
               </button>
               <button id="join_discord">
-                <a href="discord.com">JOIN DISCORD SERVER</a>
+                <a
+                  href="https://discord.gg/greatape"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  JOIN DISCORD SERVER
+                </a>
               </button>
             </div>
           </div>
