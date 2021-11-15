@@ -12,13 +12,15 @@
 .home_hero > h1 {
   font-size: 80px;
   font-weight: 700;
-  color: linear-gradient(
+  background: linear-gradient(
     90deg,
     #01efdf 0%,
     #5d98ec 31.56%,
     #9d5af9 66.46%,
     #da21ff 100%
   );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-align: center;
   animation: float 6s ease-in-out infinite;
 }
@@ -38,8 +40,8 @@
 
 button {
   border: none;
-  padding: 1em;
-  border-radius: 16px;
+  padding: 0.83em;
+  border-radius: 14px;
 }
 
 #get_started,
