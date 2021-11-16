@@ -6,7 +6,7 @@ function Resources() {
     <div className="resources">
       <Navbar />
       <div className="resources_body container mt-4">
-        <h1>Resources.</h1>
+        <h1>RESOURCES.</h1>
         <p>An archive of all resources gathered to help you in some areas.</p>
         <hr />
         <p>

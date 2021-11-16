@@ -7,7 +7,7 @@ function Roles() {
     <div className="roles">
       <Navbar />
       <div className="roles_body container mt-4">
-        <h3>Coming Soon !!!</h3>
+        <h3>COMING SOON !!!</h3>
         <hr />
         <Loading />
       </div>
