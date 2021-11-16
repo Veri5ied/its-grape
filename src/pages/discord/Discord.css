@@ -1,0 +1,11 @@
+.discord_body {
+  width: 850px;
+  color: #fff;
+  font-size: 14px;
+}
+
+@media screen and (max-screen: 480px) {
+  .discord_body {
+    width: auto;
+  }
+}

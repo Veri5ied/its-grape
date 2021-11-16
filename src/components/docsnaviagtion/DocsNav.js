@@ -1,5 +1,5 @@
 import "./DocsNav.css";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import TinyLogo from "../../images/grape_icon.png";
 
 function DocsNav({ show }) {
@@ -11,16 +11,19 @@ function DocsNav({ show }) {
           <Link to="/started">Getting Started</Link>
         </li>
         <li>
-          <Link to="/discord">Discord</Link>
+          <Link to="/access">Grape Access</Link>
         </li>
         <li>
-          <Link to="">Grape</Link>
+          <Link to="/faq">Faq</Link>
         </li>
         <li>
-          <Link to="">Home</Link>
+          <Link to="/resources">Resources</Link>
         </li>
         <li>
-          <Link to="">Join Discord</Link>
+          <Link to="/roles">Roles</Link>
+        </li>
+        <li>
+          <Link to="/discord">Join Discord</Link>
         </li>
       </ul>
     </div>
