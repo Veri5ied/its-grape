@@ -1,7 +1,7 @@
 .sidenav {
   width: 240px;
   background: white;
-  position: absolute;
+  position: fixed;
   height: 95vh;
   padding: 3px 30px;
   left: -100%;

@@ -4,6 +4,12 @@
   font-size: 14px;
 }
 
+.discord_body a img {
+  width: 90px;
+  height: 50px;
+  margin-left: 1em;
+  border-radius: 16px;
+}
 @media screen and (max-screen: 480px) {
   .discord_body {
     width: auto;
