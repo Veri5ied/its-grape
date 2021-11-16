@@ -32,7 +32,7 @@ function Home() {
             </div>
             <div className="home_btn">
               <button id="get_started">
-                <Link to="">GET STARTED</Link>
+                <Link to="/get-started">GET STARTED</Link>
               </button>
               <button id="join_discord">
                 <a
