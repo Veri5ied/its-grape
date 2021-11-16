@@ -79,3 +79,28 @@ a:hover {
     transform: translatey(0px);
   }
 }
+
+/* Media Queries */
+
+/* Max-width for Mobile screens */
+@media screen and (max-width: 480px) {
+  .home_hero > h1 {
+    font-size: 24px;
+  }
+
+  .home_hero > p {
+    font-size: 18px;
+  }
+
+  .home_btn {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Max width for PC Screens */
+@media screen and (max-width: 780px) {
+  .home_hero > h1 {
+    font-size: 50px;
+  }
+}
