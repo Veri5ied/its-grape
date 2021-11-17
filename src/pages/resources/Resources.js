@@ -13,8 +13,8 @@ function Resources() {
           GRAPE protocol - Solana SZN Hackathon submission
           <br />
           <iframe
-            width="560"
-            height="315"
+            width="320"
+            height="320"
             src="https://www.youtube.com/embed/dUQRcOrsCMY"
             title="YouTube video player"
             frameborder="0"
@@ -25,7 +25,7 @@ function Resources() {
         <p>
           How to Verify your wallet (on Grapes Channel): <br />
           <a href="https://discord.com/channels/837189238289203201/849221857650671646/866611310686765076">
-            https://discord.com/channels/837189238289203201/849221857650671646/866611310686765076
+            HOW TO VERIFY YOUR WALLET
           </a>
         </p>
       </div>

@@ -10,8 +10,8 @@
   margin-left: 1em;
   border-radius: 16px;
 }
-@media screen and (max-screen: 480px) {
+@media screen and (max-width: 480px) {
   .discord_body {
-    width: auto;
+    width: 350px;
   }
 }
