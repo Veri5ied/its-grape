@@ -9,7 +9,9 @@ function Navbar() {
   return (
     <>
       <div className="nav">
-        <img src={ToggleLogo} alt="Grape Logo" />
+        <a href="/">
+          <img src={ToggleLogo} alt="Grape Logo" />
+        </a>
         <GiHamburgerMenu onClick={() => setShowNav(!showNav)} />
       </div>
       <div className="toggle_nav">
