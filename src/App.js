@@ -1,6 +1,5 @@
 import React from "react";
 import Home from "./pages/home/Home";
-import Navbar from "./components/navbar/Navbar";
 import Discord from "./pages/discord/Discord";
 import GettingStarted from "./pages/gettingStarted/GettingStarted";
 import Resources from "./pages/resources/Resources";
@@ -15,7 +14,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="get-started" element={<Navbar />} />
+          <Route path="get-started" element={<GettingStarted />} />
           <Route path="discord" element={<Discord />} />
           <Route path="started" element={<GettingStarted />} />
           <Route path="faq" element={<Faq />} />
