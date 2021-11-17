@@ -4,6 +4,9 @@
   font-size: 14px;
 }
 
+.getting_started_body a {
+  text-decoration: underline;
+}
 
 @media screen and (max-width: 480px) {
   .getting_started_body {

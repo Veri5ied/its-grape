@@ -21,7 +21,7 @@ function Discord() {
           community with one click
         </p>
         <br />
-        Join now
+        Join now:
         <a href="https://discord.gg/greatape">
           <img src={DiscordImage} alt="discord" />
         </a>

@@ -4,6 +4,10 @@
   font-size: 14px;
 }
 
+.access_body a {
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 480px) {
   .access_body {
     width: 350px;

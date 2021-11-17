@@ -4,6 +4,10 @@
   font-size: 14px;
 }
 
+.resources_body  a {
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 480px) {
   .resources_body {
     width: 350px;
