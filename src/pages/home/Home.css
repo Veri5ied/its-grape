@@ -82,7 +82,7 @@ a:hover {
 
 /* Media Queries */
 
-/* Max-width for Mobile screens */
+/* Max-width for Mobile screens >= 480px */
 @media screen and (max-width: 480px) {
   .home_hero > h1 {
     font-size: 24px;
